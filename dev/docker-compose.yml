@@ -1,0 +1,16 @@
+version: "3.5"
+services:
+  vue-uppy:
+    image: vue-uppy
+    container_name: vue-uppy
+    build:
+      context: ../
+      dockerfile: ./dev/Dockerfile
+    user: "node"
+    working_dir: /home/node/app
+    ports:
+      - 8000:8000
+      - 8080:8080
+    volumes:
+      - .././:/home/node/app
+    command: "bash"
