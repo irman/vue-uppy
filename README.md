@@ -1,5 +1,7 @@
 # vue-uppy
 
+## NOTE: This is not an official Uppy component. The official component can be found here: https://uppy.io/docs/vue/
+
 ## DO NOT USE
 
 Work in progress.
